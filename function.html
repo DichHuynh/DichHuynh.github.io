@@ -17,6 +17,28 @@
             padding: 20px;
             text-align: center;
         }
+        header img {
+            height: 80px;
+            width: 80px;
+            border-radius: 20%; 
+            object-fit: cover;  
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
         .container {
             max-width: 1200px;
             margin: 20px auto;
@@ -59,9 +81,17 @@
 <body>
 
     <header>
+        <img src = "Logo-Ugreen.webp" alt= "Logo_Ugreen">
         <h1>Tính Năng Nổi Bật</h1>
         <p>Khám phá những tính năng đặc biệt của sản phẩm của chúng tôi.</p>
     </header>
+
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="function.html">Tính Năng</a>
+        <a href="store.html">Cửa Hàng</a>
+        <a href="introduce.html">Giới thiệu</a> <!-- Liên kết tới trang giới thiệu -->
+    </nav>
 
     <div class="container">
         <h2>CÁC TÍNH NĂNG</h2>
